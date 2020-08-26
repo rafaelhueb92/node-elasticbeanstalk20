@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 app.get("/", (_, res) =>
-  res.send({ msg: "Projeto subiu no elastic beanstalk", version: "1.0" })
+  res.send({ msg: "Projeto subiu no elastic beanstalk", version: "1.1" })
 );
 
 app.listen(PORT, () =>
